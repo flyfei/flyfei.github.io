@@ -1,6 +1,10 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
 .404-video {
     display: block;
 }
-.404 {
-    display: none;
+.img404 {
+    width: 100%;
 }
