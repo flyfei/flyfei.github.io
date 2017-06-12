@@ -1,0 +1,38 @@
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
+body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    color: #333;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+p {
+    margin-bottom: 14px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+    display: block;
+    line-height: 1.8;
+}
+.nav {
+    color: #707070;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat",sans-serif;
+    display:inline;
+}
