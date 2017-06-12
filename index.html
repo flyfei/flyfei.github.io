@@ -1,22 +1,36 @@
----
-layout: default
----
-
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <br>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%M" }}</span>
-        <hr id="line">
-		<div class="content">
-		{{ post.excerpt }}
-        </div>
-		<br>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<head>
+  <meta name="generator" content="Hugo 0.17" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tovi</title>
+  <link rel="stylesheet" href="/css/404.css">
+  <style media="screen">
+    body {
+      background-color: black;
+      margin: 0;
+    }
+    .container {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    .container video {
+      min-width: 100%;
+      min-height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <a href="http://tovizhao.com/">
+    <div class="container">
+      <video autoplay class="404-video">
+        <source src="http://tovizhao.com/videos/404-HD.mp4" type="video/mp4">
+        404. That's an error.
+      </video>
+      <div class="404">
+          <img src="http://tovizhao.com/images/404.jpg"/>
+      </div>
+    </div>
+  </a>
+</body>
