@@ -5,6 +5,9 @@ date:   2017-6-13 09:03:40 +0800
 categories: Markdown
 ---
 
+
+![Markdown](https://raw.githubusercontent.com/flyfei/Jekyll-Theme-Pithy/master/images/jekyll.png)
+
 Show Markdown
 
 #  Headers
@@ -34,8 +37,6 @@ Show Markdown
 <!--Markdown-->
 
 [Markdown]()
-
-![Markdown](https://raw.githubusercontent.com/flyfei/Jekyll-Theme-Pithy/master/images/jekyll.png)
 
 > Markdown
 
