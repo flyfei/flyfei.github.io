@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Video"
+date:   2017-6-15 09:03:40 +0800
+categories: Markdown
+---
+
+<video src="/images/phone_to_tablet_transformation.mp4" controls="controls"/>
