@@ -6,7 +6,7 @@ categories: Markdown
 ---
 
 
-![Markdown](https://raw.githubusercontent.com/flyfei/Jekyll-Theme-Pithy/master/images/jekyll.png)
+![Markdown](/images/jekyll.png)
 
 Show Markdown
 

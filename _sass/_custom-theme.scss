@@ -42,3 +42,13 @@ pre code {
 .well {
     font-family: monospace;
 }
+.post-content {
+    video {
+        width: 100%;
+    }
+}
+.content {
+    video, img {
+        width: 80%;
+    }
+}
