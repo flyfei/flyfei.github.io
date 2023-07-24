@@ -6,6 +6,8 @@
     display: block;
 }
 .img404 {
-    backgroud-image: url("/image/404.jpg") no-repeat center center;
-    backgroud-size: auto 100%;
+    backgroud: url("/image/404.jpg") no-repeat center center fixed;
+    backgroud-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
