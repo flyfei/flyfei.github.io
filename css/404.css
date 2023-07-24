@@ -11,9 +11,3 @@
     height: 100%;
     overflow: hidden;
 }
-html {
-    backgroud: url("/image/404.jpg") no-repeat center center fixed;
-    backgroud-size: cover;
-    height: 100%;
-    overflow: hidden;
-}
